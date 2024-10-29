@@ -1,11 +1,11 @@
 import os
-from box.exceptions import BoxValueError
-import yaml
+from box.exceptions import BoxValueError # type: ignore
+import yaml # type: ignore
 from CNNClassifier import logger
 import json
-import joblib
-from ensure import ensure_annotations
-from box import ConfigBox
+import joblib # type: ignore
+from ensure import ensure_annotations # type: ignore
+from box import ConfigBox # type: ignore
 from pathlib import Path
 from typing import Any
 import base64
